@@ -12,14 +12,14 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
-	
-<!-- Filter 등록 (서블릿 매핑 전!) -->
- 	<filter>
- 		<filter-name>EncodingFilter</filter-name>
- 		<filter-class>EncodingFilter</filter-class>
- 	</filter>
- 	
- 	<!-- Filter Mapping -->
+
+	<!-- Filter 등록 (서블릿 매핑 전!) -->
+	<filter>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>EncodingFilter</filter-class>
+	</filter>
+
+	<!-- Filter Mapping -->
 	<filter-mapping>
 		<filter-name>EncodingFilter</filter-name>
 		<!-- /* : 모든 URL에 매핑 -->
